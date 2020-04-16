@@ -1,0 +1,9 @@
+server:
+  port : 8081
+# TRACING-settings
+opentracing:
+  jaeger:
+    service-name: ServiceB
+    enabled: TRUE
+    udp-sender:
+      host: localhost

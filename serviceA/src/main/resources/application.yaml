@@ -1,0 +1,10 @@
+server:
+  port : 8080
+
+# TRACING-settings
+opentracing:
+  jaeger:
+    service-name: ServiceA
+    enabled: TRUE
+    udp-sender:
+      host: localhost
